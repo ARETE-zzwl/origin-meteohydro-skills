@@ -1,0 +1,7 @@
+model,metric,reference,value,better,status
+Model_A,NSE,Observed,0.6,higher,available
+Model_B,NSE,Observed,-0.2,higher,available
+Model_A,RMSE,Observed,3.2,lower,available
+Model_B,RMSE,Observed,4.5,lower,available
+Model_A,NSE,Alternative,,higher,missing
+Model_B,NSE,Alternative,0.1,higher,available

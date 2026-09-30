@@ -1,0 +1,11 @@
+{
+  "synthetic": true,
+  "purpose": "Hand-authored teaching tables; not observations, model experiments or published paper data.",
+  "inference_performed": false,
+  "tables": {
+    "reliability": {"event": "hypothetical threshold exceedance", "lead": "illustrative only", "empty_bin": "0.6–0.8 has no samples; leave undefined", "units": "probability in [0,1]", "interval_method": "none"},
+    "fdc": {"units": "m3/s", "probability": "exceedance in percent", "source": "illustrative precomputed monotone values", "zero_flow": "preserve; incompatible with ordinary log Y"},
+    "composite": {"anchor": "hypothetical event onset", "lag_unit": "day", "value_unit": "arbitrary demonstration unit", "interval_type": "illustrative endpoints; no statistical coverage claim", "n": "hypothetical event count at each lag"},
+    "portrait": {"normalization": "none; never mix raw NSE and RMSE on a shared color scale", "NSE_unit": "dimensionless", "RMSE_unit": "example discharge unit", "negative_skill": "intentional", "missing": "intentional"}
+  }
+}

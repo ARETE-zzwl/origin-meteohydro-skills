@@ -1,0 +1,1533 @@
+{
+  "scope": "30 additional journal articles; targeted reading of methods, results and figure captions. Not a systematic review or reproduction of every study.",
+  "previous_color_papers_not_counted": [
+    "10.1038/s41467-020-19160-7",
+    "10.5670/oceanog.2016.66"
+  ],
+  "papers": [
+    {
+      "id": "P01",
+      "category": "配色与图形信息",
+      "locator": "Section 3; Figures 4–5 and 8–10",
+      "observation": "用同一数据比较色表、连续/离散映射和信息简化，说明色彩梯度与图形装饰会改变读者判断。",
+      "application": "保留25套色表；增加任务驱动选色、灰度检查和分析图/成稿图两种信息密度。",
+      "caution": "该文的色彩误差数值针对其试验，不作为所有色表的通用误差率。",
+      "title": "Geodynamic diagnostics, scientific visualisation and StagLab 3.0",
+      "authors": [
+        {
+          "given": "Fabio",
+          "family": "Crameri"
+        }
+      ],
+      "year": 2018,
+      "journal": "Geoscientific Model Development",
+      "doi": "10.5194/gmd-11-2541-2018",
+      "url": "https://gmd.copernicus.org/articles/11/2541/2018/",
+      "fulltext_url": "https://gmd.copernicus.org/articles/11/2541/2018/gmd-11-2541-2018.xml",
+      "evidence_format": "publisher_fulltext_xml",
+      "access_note": "",
+      "verified_on": "2026-09-30",
+      "volume": "11",
+      "issue": "6",
+      "pages": "2541-2562"
+    },
+    {
+      "id": "P02",
+      "category": "配色与图形信息",
+      "locator": "Meteorological examples; Figures 3–6, printed pp. 208–211",
+      "observation": "降水量、预警类别和锋区识别需要不同颜色编码；论文比较彩色、灰度和色觉缺陷条件。",
+      "application": "先确定任务是读数、分类还是识别梯度；类别加符号，锋区加物理等值线，最终尺寸检查灰度。",
+      "caution": "HCL或彩虹形外观本身不等于适用；需要核对实际亮度与色阶含义。",
+      "title": "Somewhere Over the Rainbow: How to Make Effective Use of Colors in Meteorological Visualizations",
+      "authors": [
+        {
+          "given": "Reto",
+          "family": "Stauffer"
+        },
+        {
+          "given": "Georg J.",
+          "family": "Mayr"
+        },
+        {
+          "given": "Markus",
+          "family": "Dabernig"
+        },
+        {
+          "given": "Achim",
+          "family": "Zeileis"
+        }
+      ],
+      "year": 2015,
+      "journal": "Bulletin of the American Meteorological Society",
+      "doi": "10.1175/bams-d-13-00155.1",
+      "url": "https://journals.ametsoc.org/view/journals/bams/96/2/bams-d-13-00155.1.xml",
+      "fulltext_url": "https://retostauffer.org/files/2025-05-13-habilitation.pdf",
+      "evidence_format": "published_article_in_author_pdf",
+      "access_note": "AMS HTML 403. Read Article I in author compilation, printed journal pages 203–216; compilation not counted as another paper.",
+      "verified_on": "2026-09-30",
+      "volume": "96",
+      "issue": "2",
+      "pages": "203-216"
+    },
+    {
+      "id": "P03",
+      "category": "模型诊断",
+      "locator": "Figure 1; Sections 3.1–3.3",
+      "observation": "NSE与KGE并不等价，零值和基准模型之间的关系不能跨指标照搬。",
+      "application": "技能比较图写清指标版本、方向和显式基准；KGE不自动以0作为达标线。",
+      "caution": "原始KGE的均值流量基准1−√2不是所有变体和业务任务的统一阈值。",
+      "title": "Technical note: Inherent benchmark or not? Comparing Nash–Sutcliffe and Kling–Gupta efficiency scores",
+      "authors": [
+        {
+          "given": "Wouter J. M.",
+          "family": "Knoben"
+        },
+        {
+          "given": "Jim E.",
+          "family": "Freer"
+        },
+        {
+          "given": "Ross A.",
+          "family": "Woods"
+        }
+      ],
+      "year": 2019,
+      "journal": "Hydrology and Earth System Sciences",
+      "doi": "10.5194/hess-23-4323-2019",
+      "url": "https://hess.copernicus.org/articles/23/4323/2019/",
+      "fulltext_url": "https://hess.copernicus.org/articles/23/4323/2019/",
+      "evidence_format": "publisher_fulltext_html",
+      "access_note": "",
+      "verified_on": "2026-09-30",
+      "volume": "23",
+      "issue": "10",
+      "pages": "4323-4331"
+    },
+    {
+      "id": "P04",
+      "category": "模型诊断",
+      "locator": "Sections 2.1–2.3; Figures 2–5",
+      "observation": "过程线、流量历时曲线和诊断极坐标图联合区分恒定、动态和时序误差。",
+      "application": "总分旁配FDC与误差分量；有验证过的实现时才采用DE极图，否则用分量点图。",
+      "caution": "排序后的FDC丢失时间顺序，不能单凭FDC重合判断洪峰时间正确。",
+      "title": "Technical note: Diagnostic efficiency – specific evaluation of model performance",
+      "authors": [
+        {
+          "given": "Robin",
+          "family": "Schwemmle"
+        },
+        {
+          "given": "Dominic",
+          "family": "Demand"
+        },
+        {
+          "given": "Markus",
+          "family": "Weiler"
+        }
+      ],
+      "year": 2021,
+      "journal": "Hydrology and Earth System Sciences",
+      "doi": "10.5194/hess-25-2187-2021",
+      "url": "https://hess.copernicus.org/articles/25/2187/2021/",
+      "fulltext_url": "https://hess.copernicus.org/articles/25/2187/2021/",
+      "evidence_format": "publisher_fulltext_html",
+      "access_note": "",
+      "verified_on": "2026-09-30",
+      "volume": "25",
+      "issue": "4",
+      "pages": "2187-2198"
+    },
+    {
+      "id": "P05",
+      "category": "水文分布与样本支持",
+      "locator": "Publisher PDF abstract and methods: evaluation points and limits of acceptability",
+      "observation": "FDC评价点可按应用强调高流或低流，同时考虑观测流量的不确定性。",
+      "application": "FDC写明选取时段、超越概率定义和重点分位段；观测也可有区间。",
+      "caution": "FDC分布拟合不能替代对积雪过程或亚日尺度峰时的验证。",
+      "title": "Calibration of hydrological models using flow-duration curves",
+      "authors": [
+        {
+          "given": "I. K.",
+          "family": "Westerberg"
+        },
+        {
+          "given": "J.-L.",
+          "family": "Guerrero"
+        },
+        {
+          "given": "P. M.",
+          "family": "Younger"
+        },
+        {
+          "given": "K. J.",
+          "family": "Beven"
+        },
+        {
+          "given": "J.",
+          "family": "Seibert"
+        },
+        {
+          "given": "S.",
+          "family": "Halldin"
+        },
+        {
+          "given": "J. E.",
+          "family": "Freer"
+        },
+        {
+          "given": "C.-Y.",
+          "family": "Xu"
+        }
+      ],
+      "year": 2011,
+      "journal": "Hydrology and Earth System Sciences",
+      "doi": "10.5194/hess-15-2205-2011",
+      "url": "https://hess.copernicus.org/articles/15/2205/2011/",
+      "fulltext_url": "https://hess.copernicus.org/articles/15/2205/2011/hess-15-2205-2011.pdf",
+      "evidence_format": "publisher_pdf_via_web",
+      "access_note": "Publisher PDF methods and selected figure evidence read using web PDF extraction; local large-PDF download abandoned after slow transfer.",
+      "verified_on": "2026-09-30",
+      "volume": "15",
+      "issue": "7",
+      "pages": "2205-2227"
+    },
+    {
+      "id": "P06",
+      "category": "水文分布与样本支持",
+      "locator": "Section 3; Figures 3, 7–11 and 13",
+      "observation": "按水文年和供体/目标时段比较FDC，并按百分位报告误差。",
+      "application": "用分位误差小面板定位高/中/低流问题，标注水文年起点与各曲线的样本期。",
+      "caution": "不同记录长度或时期的曲线不应直接解释为纯模型差异。",
+      "title": "A methodology to estimate flow duration curves at partially ungauged basins",
+      "authors": [
+        {
+          "given": "Elena",
+          "family": "Ridolfi"
+        },
+        {
+          "given": "Hemendra",
+          "family": "Kumar"
+        },
+        {
+          "given": "András",
+          "family": "Bárdossy"
+        }
+      ],
+      "year": 2020,
+      "journal": "Hydrology and Earth System Sciences",
+      "doi": "10.5194/hess-24-2043-2020",
+      "url": "https://hess.copernicus.org/articles/24/2043/2020/",
+      "fulltext_url": "https://hess.copernicus.org/articles/24/2043/2020/",
+      "evidence_format": "publisher_fulltext_html",
+      "access_note": "",
+      "verified_on": "2026-09-30",
+      "volume": "24",
+      "issue": "4",
+      "pages": "2043-2060"
+    },
+    {
+      "id": "P07",
+      "category": "模型诊断",
+      "locator": "Figures 6–8 and 14–15",
+      "observation": "过程图、流域技能分布和内部状态对照共同评价径流网络；部分图采用坐标截断。",
+      "application": "给出过程、跨流域分布和峰/低流诊断；若截断负技能分数，另报截断数与完整范围。",
+      "caution": "内部状态与水文变量相似不是物理机制被唯一识别的证明。",
+      "title": "Rainfall–runoff modelling using Long Short-Term Memory (LSTM) networks",
+      "authors": [
+        {
+          "given": "Frederik",
+          "family": "Kratzert"
+        },
+        {
+          "given": "Daniel",
+          "family": "Klotz"
+        },
+        {
+          "given": "Claire",
+          "family": "Brenner"
+        },
+        {
+          "given": "Karsten",
+          "family": "Schulz"
+        },
+        {
+          "given": "Mathew",
+          "family": "Herrnegger"
+        }
+      ],
+      "year": 2018,
+      "journal": "Hydrology and Earth System Sciences",
+      "doi": "10.5194/hess-22-6005-2018",
+      "url": "https://hess.copernicus.org/articles/22/6005/2018/",
+      "fulltext_url": "https://hess.copernicus.org/articles/22/6005/2018/",
+      "evidence_format": "publisher_fulltext_html",
+      "access_note": "",
+      "verified_on": "2026-09-30",
+      "volume": "22",
+      "issue": "11",
+      "pages": "6005-6022"
+    },
+    {
+      "id": "P08",
+      "category": "模型诊断",
+      "locator": "Figures 3–6 and 9–12",
+      "observation": "用经验累计分布比较大样本技能，另外展示扰动稳健性和流域嵌入。",
+      "application": "新增技能ECDF和配对改进图；区分跨流域、随机重训与聚类重启三个变异来源。",
+      "caution": "独立排序的两条ECDF不能显示同一流域是否改善，需保留配对键。",
+      "title": "Towards learning universal, regional, and local hydrological behaviors via machine learning applied to large-sample datasets",
+      "authors": [
+        {
+          "given": "Frederik",
+          "family": "Kratzert"
+        },
+        {
+          "given": "Daniel",
+          "family": "Klotz"
+        },
+        {
+          "given": "Guy",
+          "family": "Shalev"
+        },
+        {
+          "given": "Günter",
+          "family": "Klambauer"
+        },
+        {
+          "given": "Sepp",
+          "family": "Hochreiter"
+        },
+        {
+          "given": "Grey",
+          "family": "Nearing"
+        }
+      ],
+      "year": 2019,
+      "journal": "Hydrology and Earth System Sciences",
+      "doi": "10.5194/hess-23-5089-2019",
+      "url": "https://hess.copernicus.org/articles/23/5089/2019/",
+      "fulltext_url": "https://hess.copernicus.org/articles/23/5089/2019/",
+      "evidence_format": "publisher_fulltext_html",
+      "access_note": "",
+      "verified_on": "2026-09-30",
+      "volume": "23",
+      "issue": "12",
+      "pages": "5089-5110"
+    },
+    {
+      "id": "P09",
+      "category": "模型诊断",
+      "locator": "Section 2.3.2; Figures 3–4",
+      "observation": "逐时间尺度展示NSE分布与峰时误差，并评价跨尺度一致性。",
+      "application": "小时/日尺度分面并标累计或平均含义；峰时偏差保留小时/天单位。",
+      "caution": "不同时间尺度的技能不强行同轴解释；聚合规则必须先由上游确定。",
+      "title": "Rainfall–runoff prediction at multiple timescales with a single Long Short-Term Memory network",
+      "authors": [
+        {
+          "given": "Martin",
+          "family": "Gauch"
+        },
+        {
+          "given": "Frederik",
+          "family": "Kratzert"
+        },
+        {
+          "given": "Daniel",
+          "family": "Klotz"
+        },
+        {
+          "given": "Grey",
+          "family": "Nearing"
+        },
+        {
+          "given": "Jimmy",
+          "family": "Lin"
+        },
+        {
+          "given": "Sepp",
+          "family": "Hochreiter"
+        }
+      ],
+      "year": 2021,
+      "journal": "Hydrology and Earth System Sciences",
+      "doi": "10.5194/hess-25-2045-2021",
+      "url": "https://hess.copernicus.org/articles/25/2045/2021/",
+      "fulltext_url": "https://hess.copernicus.org/articles/25/2045/2021/",
+      "evidence_format": "publisher_fulltext_html",
+      "access_note": "",
+      "verified_on": "2026-09-30",
+      "volume": "25",
+      "issue": "4",
+      "pages": "2045-2062"
+    },
+    {
+      "id": "P10",
+      "category": "概率与集合",
+      "locator": "Sections 2–3; Figures 2 and 8–11",
+      "observation": "预测分布用概率图及相对理想线的偏差评价，事件过程图用内外分位区间。",
+      "application": "新增概率校准偏差图与嵌套预测区间；保留逐流域检查而非只报全域聚合。",
+      "caution": "预测区间、均值置信区间和模型间范围不是同一种不确定性。",
+      "title": "Uncertainty estimation with deep learning for rainfall–runoff modeling",
+      "authors": [
+        {
+          "given": "Daniel",
+          "family": "Klotz"
+        },
+        {
+          "given": "Frederik",
+          "family": "Kratzert"
+        },
+        {
+          "given": "Martin",
+          "family": "Gauch"
+        },
+        {
+          "given": "Alden",
+          "family": "Keefe Sampson"
+        },
+        {
+          "given": "Johannes",
+          "family": "Brandstetter"
+        },
+        {
+          "given": "Günter",
+          "family": "Klambauer"
+        },
+        {
+          "given": "Sepp",
+          "family": "Hochreiter"
+        },
+        {
+          "given": "Grey",
+          "family": "Nearing"
+        }
+      ],
+      "year": 2022,
+      "journal": "Hydrology and Earth System Sciences",
+      "doi": "10.5194/hess-26-1673-2022",
+      "url": "https://hess.copernicus.org/articles/26/1673/2022/",
+      "fulltext_url": "https://hess.copernicus.org/articles/26/1673/2022/",
+      "evidence_format": "publisher_fulltext_html",
+      "access_note": "",
+      "verified_on": "2026-09-30",
+      "volume": "26",
+      "issue": "6",
+      "pages": "1673-1693"
+    },
+    {
+      "id": "P11",
+      "category": "水文分布与样本支持",
+      "locator": "Figures 1–4; Tables 2–3; Sections 4–5",
+      "observation": "流域地图配样本分布，并明确记录可用性、属性单位和水文指标定义。",
+      "application": "数据概况图补缺测覆盖、记录长度与分组样本数；Q5/Q95注明非超越分位还是超越概率。",
+      "caution": "间歇河流的对数FDC斜率可能未定义，不用0填充。",
+      "title": "The CAMELS data set: catchment attributes and meteorology for large-sample studies",
+      "authors": [
+        {
+          "given": "Nans",
+          "family": "Addor"
+        },
+        {
+          "given": "Andrew J.",
+          "family": "Newman"
+        },
+        {
+          "given": "Naoki",
+          "family": "Mizukami"
+        },
+        {
+          "given": "Martyn P.",
+          "family": "Clark"
+        }
+      ],
+      "year": 2017,
+      "journal": "Hydrology and Earth System Sciences",
+      "doi": "10.5194/hess-21-5293-2017",
+      "url": "https://hess.copernicus.org/articles/21/5293/2017/",
+      "fulltext_url": "https://hess.copernicus.org/articles/21/5293/2017/hess-21-5293-2017.pdf",
+      "evidence_format": "publisher_pdf_via_web",
+      "access_note": "Publisher PDF methods and selected figure evidence read using web PDF extraction; local large-PDF download abandoned after slow transfer.",
+      "verified_on": "2026-09-30",
+      "volume": "21",
+      "issue": "10",
+      "pages": "5293-5313"
+    },
+    {
+      "id": "P12",
+      "category": "模型诊断",
+      "locator": "Figures 3–6 and 10; Sections 3–4",
+      "observation": "不同目标函数在不同水文特征上表现不同；分布图给出保留运行数并对照观测。",
+      "application": "新增指标×模型图和特征值分布；用显式观测基准，保留各组分母。",
+      "caution": "参数集合大小不是独立流域样本数；多个高度相关指标不能冒充独立证据。",
+      "title": "Metrics that matter: objective functions and their impact on signature representation in conceptual hydrological models",
+      "authors": [
+        {
+          "given": "Peter",
+          "family": "Wagener"
+        },
+        {
+          "given": "Wouter J. M.",
+          "family": "Knoben"
+        },
+        {
+          "given": "Niels",
+          "family": "Schütze"
+        },
+        {
+          "given": "Diana",
+          "family": "Spieler"
+        }
+      ],
+      "year": 2026,
+      "journal": "Hydrology and Earth System Sciences",
+      "doi": "10.5194/hess-30-4867-2026",
+      "url": "https://hess.copernicus.org/articles/30/4867/2026/",
+      "fulltext_url": "https://hess.copernicus.org/articles/30/4867/2026/",
+      "evidence_format": "publisher_fulltext_html",
+      "access_note": "",
+      "verified_on": "2026-09-30",
+      "volume": "30",
+      "issue": "15",
+      "pages": "4867-4888"
+    },
+    {
+      "id": "P13",
+      "category": "模型诊断",
+      "locator": "Figures 4–6",
+      "observation": "分别展示率定/验证的过程、不确定性、分布及观测—模拟水文特征对照。",
+      "application": "将率定与独立验证分面；特征散点使用1:1线并标单位。",
+      "caution": "原图的截断坐标不照搬；先检查被隐藏的离群值和极端误差。",
+      "title": "Combining uncertainty quantification and entropy-inspired concepts into a single objective function for rainfall-runoff model calibration",
+      "authors": [
+        {
+          "given": "Alonso",
+          "family": "Pizarro"
+        },
+        {
+          "given": "Demetris",
+          "family": "Koutsoyiannis"
+        },
+        {
+          "given": "Alberto",
+          "family": "Montanari"
+        }
+      ],
+      "year": 2025,
+      "journal": "Hydrology and Earth System Sciences",
+      "doi": "10.5194/hess-29-4913-2025",
+      "url": "https://hess.copernicus.org/articles/29/4913/2025/",
+      "fulltext_url": "https://hess.copernicus.org/articles/29/4913/2025/",
+      "evidence_format": "publisher_fulltext_html",
+      "access_note": "",
+      "verified_on": "2026-09-30",
+      "volume": "29",
+      "issue": "19",
+      "pages": "4913-4928"
+    },
+    {
+      "id": "P14",
+      "category": "概率与集合",
+      "locator": "Section 4.2; Figures 5–7, 19 and 22–24",
+      "observation": "短临降水同时按阈值、预报时效、空间尺度检查可靠度、秩、ROC和邻域技能。",
+      "application": "可靠度旁列分箱样本数；新增时效×尺度技能图，阈值作为分面条件。",
+      "caution": "确定性技能、概率校准和空间容错评价不能互相代替。",
+      "title": "Pysteps: an open-source Python library for probabilistic precipitation nowcasting (v1.0)",
+      "authors": [
+        {
+          "given": "Seppo",
+          "family": "Pulkkinen"
+        },
+        {
+          "given": "Daniele",
+          "family": "Nerini"
+        },
+        {
+          "given": "Andrés A.",
+          "family": "Pérez Hortal"
+        },
+        {
+          "given": "Carlos",
+          "family": "Velasco-Forero"
+        },
+        {
+          "given": "Alan",
+          "family": "Seed"
+        },
+        {
+          "given": "Urs",
+          "family": "Germann"
+        },
+        {
+          "given": "Loris",
+          "family": "Foresti"
+        }
+      ],
+      "year": 2019,
+      "journal": "Geoscientific Model Development",
+      "doi": "10.5194/gmd-12-4185-2019",
+      "url": "https://gmd.copernicus.org/articles/12/4185/2019/",
+      "fulltext_url": "https://gmd.copernicus.org/articles/12/4185/2019/",
+      "evidence_format": "publisher_fulltext_html",
+      "access_note": "",
+      "verified_on": "2026-09-30",
+      "volume": "12",
+      "issue": "10",
+      "pages": "4185-4219"
+    },
+    {
+      "id": "P15",
+      "category": "概率与集合",
+      "locator": "Section 4; Figures 2, 4, 8–11",
+      "observation": "误差、集合离散度、秩直方图和可靠度共同评价分析与短临集合，并分训练/测试站。",
+      "application": "新增spread–error图与秩直方图；注明成员数、时效和独立站点。",
+      "caution": "秩近似均匀不单独证明预报有技巧，sharpness也不等同于resolution。",
+      "title": "Quantifying the analysis uncertainty for nowcasting application",
+      "authors": [
+        {
+          "given": "Yanwei",
+          "family": "Zhu"
+        },
+        {
+          "given": "Aitor",
+          "family": "Atencia"
+        },
+        {
+          "given": "Markus",
+          "family": "Dabernig"
+        },
+        {
+          "given": "Yong",
+          "family": "Wang"
+        }
+      ],
+      "year": 2025,
+      "journal": "Geoscientific Model Development",
+      "doi": "10.5194/gmd-18-1545-2025",
+      "url": "https://gmd.copernicus.org/articles/18/1545/2025/",
+      "fulltext_url": "https://gmd.copernicus.org/articles/18/1545/2025/",
+      "evidence_format": "publisher_fulltext_html",
+      "access_note": "",
+      "verified_on": "2026-09-30",
+      "volume": "18",
+      "issue": "5",
+      "pages": "1545-1559"
+    },
+    {
+      "id": "P16",
+      "category": "多变量气候诊断",
+      "locator": "Section 3.1; Figures 1–5",
+      "observation": "相对误差矩阵、相关诊断、QBO时高图和多变量场图组织综合模式评价。",
+      "application": "新增portrait矩阵与QBO时高配方；同一比较固定参考数据、权重和标准化。",
+      "caution": "相对集合中位数的配色会随入选模式变化；不能解释为固定绝对合格标准。",
+      "title": "Earth System Model Evaluation Tool (ESMValTool) v2.0 – an extended set of large-scale diagnostics for quasi-operational and comprehensive evaluation of Earth system models in CMIP",
+      "authors": [
+        {
+          "given": "Veronika",
+          "family": "Eyring"
+        },
+        {
+          "given": "Lisa",
+          "family": "Bock"
+        },
+        {
+          "given": "Axel",
+          "family": "Lauer"
+        },
+        {
+          "given": "Mattia",
+          "family": "Righi"
+        },
+        {
+          "given": "Manuel",
+          "family": "Schlund"
+        },
+        {
+          "given": "Bouwe",
+          "family": "Andela"
+        },
+        {
+          "given": "Enrico",
+          "family": "Arnone"
+        },
+        {
+          "given": "Omar",
+          "family": "Bellprat"
+        },
+        {
+          "given": "Björn",
+          "family": "Brötz"
+        },
+        {
+          "given": "Louis-Philippe",
+          "family": "Caron"
+        },
+        {
+          "given": "Nuno",
+          "family": "Carvalhais"
+        },
+        {
+          "given": "Irene",
+          "family": "Cionni"
+        },
+        {
+          "given": "Nicola",
+          "family": "Cortesi"
+        },
+        {
+          "given": "Bas",
+          "family": "Crezee"
+        },
+        {
+          "given": "Edouard L.",
+          "family": "Davin"
+        },
+        {
+          "given": "Paolo",
+          "family": "Davini"
+        },
+        {
+          "given": "Kevin",
+          "family": "Debeire"
+        },
+        {
+          "given": "Lee",
+          "family": "de Mora"
+        },
+        {
+          "given": "Clara",
+          "family": "Deser"
+        },
+        {
+          "given": "David",
+          "family": "Docquier"
+        },
+        {
+          "given": "Paul",
+          "family": "Earnshaw"
+        },
+        {
+          "given": "Carsten",
+          "family": "Ehbrecht"
+        },
+        {
+          "given": "Bettina K.",
+          "family": "Gier"
+        },
+        {
+          "given": "Nube",
+          "family": "Gonzalez-Reviriego"
+        },
+        {
+          "given": "Paul",
+          "family": "Goodman"
+        },
+        {
+          "given": "Stefan",
+          "family": "Hagemann"
+        },
+        {
+          "given": "Steven",
+          "family": "Hardiman"
+        },
+        {
+          "given": "Birgit",
+          "family": "Hassler"
+        },
+        {
+          "given": "Alasdair",
+          "family": "Hunter"
+        },
+        {
+          "given": "Christopher",
+          "family": "Kadow"
+        },
+        {
+          "given": "Stephan",
+          "family": "Kindermann"
+        },
+        {
+          "given": "Sujan",
+          "family": "Koirala"
+        },
+        {
+          "given": "Nikolay",
+          "family": "Koldunov"
+        },
+        {
+          "given": "Quentin",
+          "family": "Lejeune"
+        },
+        {
+          "given": "Valerio",
+          "family": "Lembo"
+        },
+        {
+          "given": "Tomas",
+          "family": "Lovato"
+        },
+        {
+          "given": "Valerio",
+          "family": "Lucarini"
+        },
+        {
+          "given": "François",
+          "family": "Massonnet"
+        },
+        {
+          "given": "Benjamin",
+          "family": "Müller"
+        },
+        {
+          "given": "Amarjiit",
+          "family": "Pandde"
+        },
+        {
+          "given": "Núria",
+          "family": "Pérez-Zanón"
+        },
+        {
+          "given": "Adam",
+          "family": "Phillips"
+        },
+        {
+          "given": "Valeriu",
+          "family": "Predoi"
+        },
+        {
+          "given": "Joellen",
+          "family": "Russell"
+        },
+        {
+          "given": "Alistair",
+          "family": "Sellar"
+        },
+        {
+          "given": "Federico",
+          "family": "Serva"
+        },
+        {
+          "given": "Tobias",
+          "family": "Stacke"
+        },
+        {
+          "given": "Ranjini",
+          "family": "Swaminathan"
+        },
+        {
+          "given": "Verónica",
+          "family": "Torralba"
+        },
+        {
+          "given": "Javier",
+          "family": "Vegas-Regidor"
+        },
+        {
+          "given": "Jost",
+          "family": "von Hardenberg"
+        },
+        {
+          "given": "Katja",
+          "family": "Weigel"
+        },
+        {
+          "given": "Klaus",
+          "family": "Zimmermann"
+        }
+      ],
+      "year": 2020,
+      "journal": "Geoscientific Model Development",
+      "doi": "10.5194/gmd-13-3383-2020",
+      "url": "https://gmd.copernicus.org/articles/13/3383/2020/",
+      "fulltext_url": "https://gmd.copernicus.org/articles/13/3383/2020/",
+      "evidence_format": "publisher_fulltext_html",
+      "access_note": "",
+      "verified_on": "2026-09-30",
+      "volume": "13",
+      "issue": "7",
+      "pages": "3383-3438"
+    },
+    {
+      "id": "P17",
+      "category": "多变量气候诊断",
+      "locator": "Sections 3.1–3.4; Figures 5–7 and 13–16",
+      "observation": "极端指数趋势、区域季节偏差和多模式分布互补；阴影明确为集合四分位范围。",
+      "application": "极端图附阈值基期、持续天数与分位范围；率和频次分开。",
+      "caution": "不同指标的阈值或累计时长不能复用；集合IQR不标作95% CI。",
+      "title": "Earth System Model Evaluation Tool (ESMValTool) v2.0 – diagnostics for extreme events, regional and impact evaluation, and analysis of Earth system models in CMIP",
+      "authors": [
+        {
+          "given": "Katja",
+          "family": "Weigel"
+        },
+        {
+          "given": "Lisa",
+          "family": "Bock"
+        },
+        {
+          "given": "Bettina K.",
+          "family": "Gier"
+        },
+        {
+          "given": "Axel",
+          "family": "Lauer"
+        },
+        {
+          "given": "Mattia",
+          "family": "Righi"
+        },
+        {
+          "given": "Manuel",
+          "family": "Schlund"
+        },
+        {
+          "given": "Kemisola",
+          "family": "Adeniyi"
+        },
+        {
+          "given": "Bouwe",
+          "family": "Andela"
+        },
+        {
+          "given": "Enrico",
+          "family": "Arnone"
+        },
+        {
+          "given": "Peter",
+          "family": "Berg"
+        },
+        {
+          "given": "Louis-Philippe",
+          "family": "Caron"
+        },
+        {
+          "given": "Irene",
+          "family": "Cionni"
+        },
+        {
+          "given": "Susanna",
+          "family": "Corti"
+        },
+        {
+          "given": "Niels",
+          "family": "Drost"
+        },
+        {
+          "given": "Alasdair",
+          "family": "Hunter"
+        },
+        {
+          "given": "Llorenç",
+          "family": "Lledó"
+        },
+        {
+          "given": "Christian Wilhelm",
+          "family": "Mohr"
+        },
+        {
+          "given": "Aytaç",
+          "family": "Paçal"
+        },
+        {
+          "given": "Núria",
+          "family": "Pérez-Zanón"
+        },
+        {
+          "given": "Valeriu",
+          "family": "Predoi"
+        },
+        {
+          "given": "Marit",
+          "family": "Sandstad"
+        },
+        {
+          "given": "Jana",
+          "family": "Sillmann"
+        },
+        {
+          "given": "Andreas",
+          "family": "Sterl"
+        },
+        {
+          "given": "Javier",
+          "family": "Vegas-Regidor"
+        },
+        {
+          "given": "Jost",
+          "family": "von Hardenberg"
+        },
+        {
+          "given": "Veronika",
+          "family": "Eyring"
+        }
+      ],
+      "year": 2021,
+      "journal": "Geoscientific Model Development",
+      "doi": "10.5194/gmd-14-3159-2021",
+      "url": "https://gmd.copernicus.org/articles/14/3159/2021/",
+      "fulltext_url": "https://gmd.copernicus.org/articles/14/3159/2021/",
+      "evidence_format": "publisher_fulltext_html",
+      "access_note": "",
+      "verified_on": "2026-09-30",
+      "volume": "14",
+      "issue": "6",
+      "pages": "3159-3184"
+    },
+    {
+      "id": "P18",
+      "category": "多变量气候诊断",
+      "locator": "Sections 3.1–3.6; Figures 2 and 5–8",
+      "observation": "时间、季节、空间和相对技能矩阵共同定位模式异常；点状覆盖可代表集合基准比较。",
+      "application": "总览—异常定位—详细证据三层诊断；图注说明点状覆盖到底表示什么。",
+      "caution": "点状纹理不必然表示p<0.05；不能用习惯替换论文中的实际语义。",
+      "title": "Monitoring and benchmarking Earth system model simulations with ESMValTool v2.12.0",
+      "authors": [
+        {
+          "given": "Axel",
+          "family": "Lauer"
+        },
+        {
+          "given": "Lisa",
+          "family": "Bock"
+        },
+        {
+          "given": "Birgit",
+          "family": "Hassler"
+        },
+        {
+          "given": "Patrick",
+          "family": "Jöckel"
+        },
+        {
+          "given": "Lukas",
+          "family": "Ruhe"
+        },
+        {
+          "given": "Manuel",
+          "family": "Schlund"
+        }
+      ],
+      "year": 2025,
+      "journal": "Geoscientific Model Development",
+      "doi": "10.5194/gmd-18-1169-2025",
+      "url": "https://gmd.copernicus.org/articles/18/1169/2025/",
+      "fulltext_url": "https://gmd.copernicus.org/articles/18/1169/2025/",
+      "evidence_format": "publisher_fulltext_html",
+      "access_note": "",
+      "verified_on": "2026-09-30",
+      "volume": "18",
+      "issue": "4",
+      "pages": "1169-1188"
+    },
+    {
+      "id": "P19",
+      "category": "复合极端与事件",
+      "locator": "Section 2.4; Figures 2–3 and 8–12",
+      "observation": "联合指标等值线与游程事件示意区分持续时间、严重度、强度和频次。",
+      "application": "新增复合事件阈值象限与事件带图；分开累计严重度和平均强度。",
+      "caution": "阈值和最短历时是研究定义，不能把文中数值写成领域通用标准。",
+      "title": "A standardized index for assessing sub-monthly compound dry and hot conditions with application in China",
+      "authors": [
+        {
+          "given": "Jun",
+          "family": "Li"
+        },
+        {
+          "given": "Zhaoli",
+          "family": "Wang"
+        },
+        {
+          "given": "Xushu",
+          "family": "Wu"
+        },
+        {
+          "given": "Jakob",
+          "family": "Zscheischler"
+        },
+        {
+          "given": "Shenglian",
+          "family": "Guo"
+        },
+        {
+          "given": "Xiaohong",
+          "family": "Chen"
+        }
+      ],
+      "year": 2021,
+      "journal": "Hydrology and Earth System Sciences",
+      "doi": "10.5194/hess-25-1587-2021",
+      "url": "https://hess.copernicus.org/articles/25/1587/2021/",
+      "fulltext_url": "https://hess.copernicus.org/articles/25/1587/2021/",
+      "evidence_format": "publisher_fulltext_html",
+      "access_note": "",
+      "verified_on": "2026-09-30",
+      "volume": "25",
+      "issue": "3",
+      "pages": "1587-1601"
+    },
+    {
+      "id": "P20",
+      "category": "复合极端与事件",
+      "locator": "Section 3; Figures 3–4 and 6–7",
+      "observation": "原始/变换边际散点和随分位阈值变化的尾依赖曲线共同检查复合风险。",
+      "application": "尾依赖诊断注明边际变换、时空窗口、阈值与区间；原单位图和变换图分面。",
+      "caution": "相关系数不等于尾依赖，尾部共现也不自动构成因果证据。",
+      "title": "Evaluating the dependence structure of compound precipitation and wind speed extremes",
+      "authors": [
+        {
+          "given": "Jakob",
+          "family": "Zscheischler"
+        },
+        {
+          "given": "Philippe",
+          "family": "Naveau"
+        },
+        {
+          "given": "Olivia",
+          "family": "Martius"
+        },
+        {
+          "given": "Sebastian",
+          "family": "Engelke"
+        },
+        {
+          "given": "Christoph C.",
+          "family": "Raible"
+        }
+      ],
+      "year": 2021,
+      "journal": "Earth System Dynamics",
+      "doi": "10.5194/esd-12-1-2021",
+      "url": "https://esd.copernicus.org/articles/12/1/2021/",
+      "fulltext_url": "https://esd.copernicus.org/articles/12/1/2021/",
+      "evidence_format": "publisher_fulltext_html",
+      "access_note": "",
+      "verified_on": "2026-09-30",
+      "volume": "12",
+      "issue": "1",
+      "pages": "1-16"
+    },
+    {
+      "id": "P21",
+      "category": "复合极端与事件",
+      "locator": "Sections 3.2–3.4; Figures 1 and 4–7",
+      "observation": "通过事件定义图、特征时间变化与差值累计分布比较复合和单一极端事件。",
+      "application": "新增热后雨事件条带与特征对照；同一特征对比共享单位，场景分面。",
+      "caution": "条件概率、偶遇概率及其比值必须区分；比值中性值是1。",
+      "title": "Global escalation of more frequent and intense compound heatwave-extreme precipitation events",
+      "authors": [
+        {
+          "given": "Haoyu",
+          "family": "Jin"
+        },
+        {
+          "given": "Moyang",
+          "family": "Liu"
+        },
+        {
+          "given": "Ke",
+          "family": "Zhang"
+        },
+        {
+          "given": "Xuan",
+          "family": "Yu"
+        },
+        {
+          "given": "Xu",
+          "family": "Yang"
+        },
+        {
+          "given": "Lijun",
+          "family": "Chao"
+        },
+        {
+          "given": "Pengfei",
+          "family": "Zhang"
+        },
+        {
+          "given": "Guoyan",
+          "family": "Liu"
+        }
+      ],
+      "year": 2026,
+      "journal": "Hydrology and Earth System Sciences",
+      "doi": "10.5194/hess-30-5229-2026",
+      "url": "https://hess.copernicus.org/articles/30/5229/2026/",
+      "fulltext_url": "https://hess.copernicus.org/articles/30/5229/2026/",
+      "evidence_format": "publisher_fulltext_html",
+      "access_note": "",
+      "verified_on": "2026-09-30",
+      "volume": "30",
+      "issue": "16",
+      "pages": "5229-5244"
+    },
+    {
+      "id": "P22",
+      "category": "复合极端与事件",
+      "locator": "Sections 2.3–2.6; Figures 2–4, 6 and 8",
+      "observation": "区分相关分析响应时间与事件匹配滞后，另展示数据集差异和趋势。",
+      "application": "新增干旱传播响应/滞后矩阵，明确两种时间定义并单列数据集不确定性。",
+      "caution": "均值接近0时CV可能不稳定；缺测、未显著和无事件采用不同编码。",
+      "title": "Understanding meteorological, runoff, and agricultural drought propagation and their influencing factors in an ensemble of multiple datasets",
+      "authors": [
+        {
+          "given": "Yuanrui",
+          "family": "Liu"
+        },
+        {
+          "given": "Tingting",
+          "family": "Hu"
+        },
+        {
+          "given": "Jiawen",
+          "family": "Yang"
+        },
+        {
+          "given": "Lei",
+          "family": "Yu"
+        }
+      ],
+      "year": 2026,
+      "journal": "Hydrology and Earth System Sciences",
+      "doi": "10.5194/hess-30-2775-2026",
+      "url": "https://hess.copernicus.org/articles/30/2775/2026/",
+      "fulltext_url": "https://hess.copernicus.org/articles/30/2775/2026/",
+      "evidence_format": "publisher_fulltext_html",
+      "access_note": "",
+      "verified_on": "2026-09-30",
+      "volume": "30",
+      "issue": "9",
+      "pages": "2775-2795"
+    },
+    {
+      "id": "P23",
+      "category": "季节性与时频",
+      "locator": "Section 3.1; Figures 3–4 and 9–10",
+      "observation": "圆形统计同时表示洪水平均日期和季节集中程度，并识别无明显季节性的站点。",
+      "application": "新增日期角度—集中度半径图；图例写清日历、水文年起点、样本年数。",
+      "caution": "不能对12月和1月日期做普通算术平均；双峰季节性不压缩成单一平均日期。",
+      "title": "Spatial patterns and characteristics of flood seasonality in Europe",
+      "authors": [
+        {
+          "given": "Julia",
+          "family": "Hall"
+        },
+        {
+          "given": "Günter",
+          "family": "Blöschl"
+        }
+      ],
+      "year": 2018,
+      "journal": "Hydrology and Earth System Sciences",
+      "doi": "10.5194/hess-22-3883-2018",
+      "url": "https://hess.copernicus.org/articles/22/3883/2018/",
+      "fulltext_url": "https://hess.copernicus.org/articles/22/3883/2018/",
+      "evidence_format": "publisher_fulltext_html",
+      "access_note": "",
+      "verified_on": "2026-09-30",
+      "volume": "22",
+      "issue": "7",
+      "pages": "3883-3901"
+    },
+    {
+      "id": "P24",
+      "category": "季节性与时频",
+      "locator": "Sections 3.2–3.4; Figures 4, 6, 8 and 10",
+      "observation": "季节变化结合天气类型和产洪机制分类，避免只给一条总体时间趋势。",
+      "application": "新增季节×事件类型小面板；保留不同阶段各类型样本数和分类规则。",
+      "caution": "百分比变化在基期类别稀少时不稳定，配套给出原始次数。",
+      "title": "Changes in Mediterranean flood processes and seasonality",
+      "authors": [
+        {
+          "given": "Yves",
+          "family": "Tramblay"
+        },
+        {
+          "given": "Patrick",
+          "family": "Arnaud"
+        },
+        {
+          "given": "Guillaume",
+          "family": "Artigue"
+        },
+        {
+          "given": "Michel",
+          "family": "Lang"
+        },
+        {
+          "given": "Emmanuel",
+          "family": "Paquet"
+        },
+        {
+          "given": "Luc",
+          "family": "Neppel"
+        },
+        {
+          "given": "Eric",
+          "family": "Sauquet"
+        }
+      ],
+      "year": 2023,
+      "journal": "Hydrology and Earth System Sciences",
+      "doi": "10.5194/hess-27-2973-2023",
+      "url": "https://hess.copernicus.org/articles/27/2973/2023/",
+      "fulltext_url": "https://hess.copernicus.org/articles/27/2973/2023/",
+      "evidence_format": "publisher_fulltext_html",
+      "access_note": "",
+      "verified_on": "2026-09-30",
+      "volume": "27",
+      "issue": "15",
+      "pages": "2973-2987"
+    },
+    {
+      "id": "P25",
+      "category": "复合极端与事件",
+      "locator": "Sections 2.3–2.5; Figures 2–5",
+      "observation": "洪水范围、持续时间、频次和强度分别展示，并区分危害与人口暴露。",
+      "application": "趋势面板一变量一单位；气泡面积编码物理量并标尺寸图例，暴露加权结果单列。",
+      "caution": "不要用气泡半径与物理量线性对应；事件强度、影响面积和暴露不是同一量。",
+      "title": "An increase in the spatial extent of European floods over the last 70 years",
+      "authors": [
+        {
+          "given": "Beijing",
+          "family": "Fang"
+        },
+        {
+          "given": "Emanuele",
+          "family": "Bevacqua"
+        },
+        {
+          "given": "Oldrich",
+          "family": "Rakovec"
+        },
+        {
+          "given": "Jakob",
+          "family": "Zscheischler"
+        }
+      ],
+      "year": 2024,
+      "journal": "Hydrology and Earth System Sciences",
+      "doi": "10.5194/hess-28-3755-2024",
+      "url": "https://hess.copernicus.org/articles/28/3755/2024/",
+      "fulltext_url": "https://hess.copernicus.org/articles/28/3755/2024/",
+      "evidence_format": "publisher_fulltext_html",
+      "access_note": "",
+      "verified_on": "2026-09-30",
+      "volume": "28",
+      "issue": "16",
+      "pages": "3755-3775"
+    },
+    {
+      "id": "P26",
+      "category": "水文分布与样本支持",
+      "locator": "Section 3; Figures 2–4",
+      "observation": "相同平均流量变化可对应不同FDC形状，集合背景与重点情景并列。",
+      "application": "用浅灰展示情景FDC族，突出已事先选定的情景；对不同分位段分别诊断。",
+      "caution": "样本情景的包络不自动具有概率或置信度含义。",
+      "title": "Technical note: Statistical generation of climate-perturbed flow duration curves",
+      "authors": [
+        {
+          "given": "Veysel",
+          "family": "Yildiz"
+        },
+        {
+          "given": "Robert",
+          "family": "Milton"
+        },
+        {
+          "given": "Solomon",
+          "family": "Brown"
+        },
+        {
+          "given": "Charles",
+          "family": "Rougé"
+        }
+      ],
+      "year": 2023,
+      "journal": "Hydrology and Earth System Sciences",
+      "doi": "10.5194/hess-27-2499-2023",
+      "url": "https://hess.copernicus.org/articles/27/2499/2023/",
+      "fulltext_url": "https://hess.copernicus.org/articles/27/2499/2023/",
+      "evidence_format": "publisher_fulltext_html",
+      "access_note": "",
+      "verified_on": "2026-09-30",
+      "volume": "27",
+      "issue": "13",
+      "pages": "2499-2507"
+    },
+    {
+      "id": "P27",
+      "category": "概率与集合",
+      "locator": "Sections 2.4 and 3; Figures 2–7",
+      "observation": "按季节背景显示集合中位数、分位与极值，并跟踪极端后的恢复或持续。",
+      "application": "新增嵌套集合带与恢复概率面板；单条故事线始终保留同一个成员标识。",
+      "caution": "逐月挑选不同成员的最极端值拼成一条线，不代表真实可实现的成员轨迹。",
+      "title": "Demonstrating the use of UNSEEN climate data for hydrological applications: case studies for extreme floods and droughts in England",
+      "authors": [
+        {
+          "given": "Alison L.",
+          "family": "Kay"
+        },
+        {
+          "given": "Nick",
+          "family": "Dunstone"
+        },
+        {
+          "given": "Gillian",
+          "family": "Kay"
+        },
+        {
+          "given": "Victoria A.",
+          "family": "Bell"
+        },
+        {
+          "given": "Jamie",
+          "family": "Hannaford"
+        }
+      ],
+      "year": 2024,
+      "journal": "Natural Hazards and Earth System Sciences",
+      "doi": "10.5194/nhess-24-2953-2024",
+      "url": "https://nhess.copernicus.org/articles/24/2953/2024/",
+      "fulltext_url": "https://nhess.copernicus.org/articles/24/2953/2024/",
+      "evidence_format": "publisher_fulltext_html",
+      "access_note": "",
+      "verified_on": "2026-09-30",
+      "volume": "24",
+      "issue": "9",
+      "pages": "2953-2970"
+    },
+    {
+      "id": "P28",
+      "category": "季节性与时频",
+      "locator": "Publisher PDF; Figures 1–5 and wavelet-coherence methods",
+      "observation": "小波功率/相干图配显著性、影响锥和相位信息，说明平滑与噪声模型的作用。",
+      "application": "新增时频图配方：周期对数轴、COI遮罩、相位箭头图例及固定色标。",
+      "caution": "相位必须交代变量顺序与箭头方向；图上领先关系不直接证明因果。",
+      "title": "Application of the cross wavelet transform and wavelet coherence to geophysical time series",
+      "authors": [
+        {
+          "given": "A.",
+          "family": "Grinsted"
+        },
+        {
+          "given": "J. C.",
+          "family": "Moore"
+        },
+        {
+          "given": "S.",
+          "family": "Jevrejeva"
+        }
+      ],
+      "year": 2004,
+      "journal": "Nonlinear Processes in Geophysics",
+      "doi": "10.5194/npg-11-561-2004",
+      "url": "https://npg.copernicus.org/articles/11/561/2004/",
+      "fulltext_url": "https://npg.copernicus.org/articles/11/561/2004/",
+      "evidence_format": "published_pdf",
+      "access_note": "",
+      "verified_on": "2026-09-30",
+      "volume": "11",
+      "issue": "5/6",
+      "pages": "561-566"
+    },
+    {
+      "id": "P29",
+      "category": "季节性与时频",
+      "locator": "Section 2.2; Figures 7–12",
+      "observation": "比较多种小波显著性检验，展示降水与ENSO时频分析中显著区域的变化。",
+      "application": "显著轮廓注明逐点或区域检验及零假设；绘图层只读取上游掩膜。",
+      "caution": "相邻时频像素不是独立样本；不能把成片逐点显著当已控制多重比较。",
+      "title": "Statistical hypothesis testing in wavelet analysis: theoretical developments and applications to Indian rainfall",
+      "authors": [
+        {
+          "given": "Justin A.",
+          "family": "Schulte"
+        }
+      ],
+      "year": 2019,
+      "journal": "Nonlinear Processes in Geophysics",
+      "doi": "10.5194/npg-26-91-2019",
+      "url": "https://npg.copernicus.org/articles/26/91/2019/",
+      "fulltext_url": "https://npg.copernicus.org/articles/26/91/2019/",
+      "evidence_format": "publisher_fulltext_html",
+      "access_note": "",
+      "verified_on": "2026-09-30",
+      "volume": "26",
+      "issue": "2",
+      "pages": "91-108"
+    },
+    {
+      "id": "P30",
+      "category": "多变量气候诊断",
+      "locator": "Section 2.2; Figures 1–6 and Appendix C",
+      "observation": "以物理驱动构造故事线，区分标准化响应、多模式平均与总体变化。",
+      "application": "新增故事线四象限/小面板；写明每K归一化、基准时期和是否包含集合平均。",
+      "caution": "故事线不是发生概率排序；模式符号一致性不等同于显著性检验。",
+      "title": "Storylines of summer Arctic climate change constrained by Barents–Kara seas and Arctic tropospheric warming for climate risk assessment",
+      "authors": [
+        {
+          "given": "Xavier J.",
+          "family": "Levine"
+        },
+        {
+          "given": "Ryan S.",
+          "family": "Williams"
+        },
+        {
+          "given": "Gareth",
+          "family": "Marshall"
+        },
+        {
+          "given": "Andrew",
+          "family": "Orr"
+        },
+        {
+          "given": "Lise",
+          "family": "Seland Graff"
+        },
+        {
+          "given": "Dörthe",
+          "family": "Handorf"
+        },
+        {
+          "given": "Alexey",
+          "family": "Karpechko"
+        },
+        {
+          "given": "Raphael",
+          "family": "Köhler"
+        },
+        {
+          "given": "René R.",
+          "family": "Wijngaard"
+        },
+        {
+          "given": "Nadine",
+          "family": "Johnston"
+        },
+        {
+          "given": "Hanna",
+          "family": "Lee"
+        },
+        {
+          "given": "Lars",
+          "family": "Nieradzik"
+        },
+        {
+          "given": "Priscilla A.",
+          "family": "Mooney"
+        }
+      ],
+      "year": 2024,
+      "journal": "Earth System Dynamics",
+      "doi": "10.5194/esd-15-1161-2024",
+      "url": "https://esd.copernicus.org/articles/15/1161/2024/",
+      "fulltext_url": "https://esd.copernicus.org/articles/15/1161/2024/",
+      "evidence_format": "publisher_fulltext_html",
+      "access_note": "",
+      "verified_on": "2026-09-30",
+      "volume": "15",
+      "issue": "4",
+      "pages": "1161-1177"
+    }
+  ]
+}

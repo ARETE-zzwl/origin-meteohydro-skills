@@ -1,0 +1,4 @@
+interface:
+  display_name: "Origin 气象水文科研绘图"
+  short_description: "原生Origin图件、气象水文色标、常见科研图型与可复现导出"
+  default_prompt: "使用 $python-origin-plotting 为我的气象水文数据选择合适色标，并生成可编辑的Origin科研图件。"
