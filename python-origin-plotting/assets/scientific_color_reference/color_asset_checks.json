@@ -1,0 +1,322 @@
+{
+  "palettes": [
+    {
+      "name": "viridis",
+      "kind": "sequential",
+      "count": 256,
+      "lightness_start": 14.903118813024406,
+      "lightness_end": 90.85653188988378,
+      "lightness_reversals_gt_0_1": 0,
+      "note": "Diagnostic only; not a perceptual-uniformity or colour-vision-deficiency certification"
+    },
+    {
+      "name": "cividis",
+      "kind": "sequential",
+      "count": 256,
+      "lightness_start": 13.792399156809509,
+      "lightness_end": 91.26576464215124,
+      "lightness_reversals_gt_0_1": 0,
+      "note": "Diagnostic only; not a perceptual-uniformity or colour-vision-deficiency certification"
+    },
+    {
+      "name": "magma",
+      "kind": "sequential",
+      "count": 256,
+      "lightness_start": 0.07918168225896022,
+      "lightness_end": 97.91640148600516,
+      "lightness_reversals_gt_0_1": 0,
+      "note": "Diagnostic only; not a perceptual-uniformity or colour-vision-deficiency certification"
+    },
+    {
+      "name": "Blues",
+      "kind": "sequential",
+      "count": 256,
+      "lightness_start": 98.42767759736184,
+      "lightness_end": 20.931242360278993,
+      "lightness_reversals_gt_0_1": 0,
+      "note": "Diagnostic only; not a perceptual-uniformity or colour-vision-deficiency certification"
+    },
+    {
+      "name": "YlGnBu",
+      "kind": "sequential",
+      "count": 256,
+      "lightness_start": 99.13899665545229,
+      "lightness_end": 13.441374311070323,
+      "lightness_reversals_gt_0_1": 0,
+      "note": "Diagnostic only; not a perceptual-uniformity or colour-vision-deficiency certification"
+    },
+    {
+      "name": "YlOrRd",
+      "kind": "sequential",
+      "count": 256,
+      "lightness_start": 98.88327543895244,
+      "lightness_end": 25.948704791677713,
+      "lightness_reversals_gt_0_1": 0,
+      "note": "Diagnostic only; not a perceptual-uniformity or colour-vision-deficiency certification"
+    },
+    {
+      "name": "RdBu_r",
+      "kind": "diverging",
+      "count": 256,
+      "lightness_start": 20.080852888819074,
+      "lightness_end": 19.97364937467188
+    },
+    {
+      "name": "BrBG",
+      "kind": "diverging",
+      "count": 256,
+      "lightness_start": 23.70341744154222,
+      "lightness_end": 21.744992473132115
+    },
+    {
+      "name": "PuOr",
+      "kind": "diverging",
+      "count": 256,
+      "lightness_start": 33.2591307331785,
+      "lightness_end": 9.528691195128186
+    },
+    {
+      "name": "twilight",
+      "kind": "cyclic",
+      "count": 256,
+      "lightness_start": 87.62350552358649,
+      "lightness_end": 87.62350552358649
+    },
+    {
+      "name": "okabe_ito",
+      "kind": "categorical",
+      "count": 8,
+      "lightness_start": 0.0,
+      "lightness_end": 61.047355974201054
+    },
+    {
+      "name": "tab10",
+      "kind": "categorical",
+      "count": 10,
+      "lightness_start": 47.981943187348584,
+      "lightness_end": 70.5345896786982
+    },
+    {
+      "name": "cmocean_rain",
+      "kind": "sequential",
+      "count": 256,
+      "lightness_start": 93.9763642244905,
+      "lightness_end": 12.020552728057012,
+      "lightness_reversals_gt_0_1": 0,
+      "note": "Diagnostic only; not a perceptual-uniformity or colour-vision-deficiency certification"
+    },
+    {
+      "name": "cmocean_thermal",
+      "kind": "sequential",
+      "count": 256,
+      "lightness_start": 12.396012308145966,
+      "lightness_end": 94.43294262915101,
+      "lightness_reversals_gt_0_1": 0,
+      "note": "Diagnostic only; not a perceptual-uniformity or colour-vision-deficiency certification"
+    },
+    {
+      "name": "cmocean_speed",
+      "kind": "sequential",
+      "count": 256,
+      "lightness_start": 98.39978369539698,
+      "lightness_end": 12.164068549939177,
+      "lightness_reversals_gt_0_1": 0,
+      "note": "Diagnostic only; not a perceptual-uniformity or colour-vision-deficiency certification"
+    },
+    {
+      "name": "cmocean_balance",
+      "kind": "diverging",
+      "count": 256,
+      "lightness_start": 12.155580804441254,
+      "lightness_end": 10.555197918847476
+    },
+    {
+      "name": "cmocean_delta",
+      "kind": "diverging",
+      "count": 512,
+      "lightness_start": 12.749508597131797,
+      "lightness_end": 12.164068549939177
+    },
+    {
+      "name": "cmocean_phase",
+      "kind": "cyclic",
+      "count": 256,
+      "lightness_start": 53.800094492692594,
+      "lightness_end": 53.800094492692594
+    },
+    {
+      "name": "batlow",
+      "kind": "sequential",
+      "count": 256,
+      "lightness_start": 12.109810640410632,
+      "lightness_end": 87.19846696810136,
+      "lightness_reversals_gt_0_1": 0,
+      "note": "Diagnostic only; not a perceptual-uniformity or colour-vision-deficiency certification"
+    },
+    {
+      "name": "vik",
+      "kind": "diverging",
+      "count": 256,
+      "lightness_start": 11.245235922070233,
+      "lightness_end": 16.212355307141834
+    },
+    {
+      "name": "ncl_precip_11lev",
+      "kind": "discrete",
+      "count": 12,
+      "lightness_start": 100.0,
+      "lightness_end": 28.38983038856758
+    },
+    {
+      "name": "ncl_precip_diff_12lev",
+      "kind": "discrete",
+      "count": 13,
+      "lightness_start": 52.293565563023265,
+      "lightness_end": 22.109281704688946
+    },
+    {
+      "name": "ncl_BlueWhiteOrangeRed",
+      "kind": "diverging",
+      "count": 254,
+      "lightness_start": 19.70518641182938,
+      "lightness_end": 31.154965717284085
+    },
+    {
+      "name": "ncl_WhiteBlueGreenYellowRed",
+      "kind": "sequential",
+      "count": 254,
+      "lightness_start": 100.0,
+      "lightness_end": 31.154965717284085,
+      "lightness_reversals_gt_0_1": 73,
+      "note": "Diagnostic only; not a perceptual-uniformity or colour-vision-deficiency certification"
+    },
+    {
+      "name": "heat_rain_roles",
+      "kind": "categorical",
+      "count": 5,
+      "lightness_start": 59.823868027314575,
+      "lightness_end": 60.35078899006453
+    },
+    {
+      "name": "navia",
+      "kind": "sequential",
+      "count": 256,
+      "lightness_start": 5.705102970402293,
+      "lightness_end": 96.16516094133372,
+      "lightness_reversals_gt_0_1": 0,
+      "note": "Diagnostic only; not a perceptual-uniformity or colour-vision-deficiency certification"
+    },
+    {
+      "name": "lipari",
+      "kind": "sequential",
+      "count": 256,
+      "lightness_start": 5.646002288575579,
+      "lightness_end": 96.51265081340202,
+      "lightness_reversals_gt_0_1": 0,
+      "note": "Diagnostic only; not a perceptual-uniformity or colour-vision-deficiency certification"
+    },
+    {
+      "name": "glasgow",
+      "kind": "sequential",
+      "count": 256,
+      "lightness_start": 12.832228020012266,
+      "lightness_end": 86.43893969805025,
+      "lightness_reversals_gt_0_1": 0,
+      "note": "Diagnostic only; not a perceptual-uniformity or colour-vision-deficiency certification"
+    },
+    {
+      "name": "devon",
+      "kind": "sequential",
+      "count": 256,
+      "lightness_start": 14.378427263049161,
+      "lightness_end": 100.0,
+      "lightness_reversals_gt_0_1": 0,
+      "note": "Diagnostic only; not a perceptual-uniformity or colour-vision-deficiency certification"
+    },
+    {
+      "name": "oslo",
+      "kind": "sequential",
+      "count": 256,
+      "lightness_start": 0.2741748000656517,
+      "lightness_end": 100.0,
+      "lightness_reversals_gt_0_1": 0,
+      "note": "Diagnostic only; not a perceptual-uniformity or colour-vision-deficiency certification"
+    },
+    {
+      "name": "lajolla",
+      "kind": "sequential",
+      "count": 256,
+      "lightness_start": 8.146248320995376,
+      "lightness_end": 98.61290834466405,
+      "lightness_reversals_gt_0_1": 0,
+      "note": "Diagnostic only; not a perceptual-uniformity or colour-vision-deficiency certification"
+    },
+    {
+      "name": "bam",
+      "kind": "diverging",
+      "count": 256,
+      "lightness_start": 21.27536685585637,
+      "lightness_end": 27.447723782853352
+    },
+    {
+      "name": "broc",
+      "kind": "diverging",
+      "count": 256,
+      "lightness_start": 14.378427263049161,
+      "lightness_end": 14.391000965150152
+    },
+    {
+      "name": "romaO",
+      "kind": "cyclic",
+      "count": 256,
+      "lightness_start": 32.389874342063784,
+      "lightness_end": 32.31358080550469
+    },
+    {
+      "name": "tol_bright",
+      "kind": "categorical",
+      "count": 7,
+      "lightness_start": 48.66679781991668,
+      "lightness_end": 75.88062353321
+    },
+    {
+      "name": "tol_vibrant",
+      "kind": "categorical",
+      "count": 7,
+      "lightness_start": 63.019077456337,
+      "lightness_end": 75.88062353321
+    },
+    {
+      "name": "tol_muted",
+      "kind": "categorical",
+      "count": 9,
+      "lightness_start": 55.75790794113968,
+      "lightness_end": 45.607065619762764
+    },
+    {
+      "name": "tol_high_contrast",
+      "kind": "categorical",
+      "count": 3,
+      "lightness_start": 29.188889940430116,
+      "lightness_end": 49.521694389998046
+    },
+    {
+      "name": "tol_medium_contrast",
+      "kind": "categorical",
+      "count": 6,
+      "lightness_start": 61.62563447911688,
+      "lightness_end": 72.1360865825777
+    },
+    {
+      "name": "tol_pale",
+      "kind": "categorical",
+      "count": 7,
+      "lightness_start": 80.68584747937919,
+      "lightness_end": 88.11543698710965
+    }
+  ],
+  "count": 40,
+  "quantization": "8-bit RGB",
+  "categorical_interpolation": false,
+  "source_files_and_hashes_verified": true
+}

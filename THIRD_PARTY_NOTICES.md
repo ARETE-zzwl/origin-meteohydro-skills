@@ -14,6 +14,14 @@ The unmodified license texts accompany the assets under
 - Scientific Colour Maps / cmcrameri: MIT; retain the provided upstream notices.
 - NCAR NCL tables: upstream license and Apache-2.0 text; retain source comments.
 - `heat_rain_roles`: original example palette with its CC0 declaration.
+- Paul Tol: six published categorical RGB sets, attributed to Paul Tol. Only
+  colour coordinates are included; no upstream figures or executable code are
+  redistributed and no new license is asserted over those coordinates.
+
+The editable Origin project and its figure previews use locally generated
+synthetic data. The four-page reference combines two native Origin pages with
+two ReportLab vector pages. Fonts embedded in the PDF are not standalone font
+distributions and are not relicensed under this project's MIT license.
 
 Origin and OriginPro are products of OriginLab. This project is independent and
 does not redistribute Origin software. Journal articles and their original

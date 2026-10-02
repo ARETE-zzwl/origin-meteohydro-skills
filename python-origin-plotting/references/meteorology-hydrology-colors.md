@@ -4,6 +4,8 @@
 
 ## 变量与配色
 
+2026-10-02新增15套并保留原25套，现有40套。新增配色及精简colorbar的尺寸、主刻度、浅填充、Origin设置见[科研配色精修](scientific-color-recipes.md)；[四页参考册](../assets/scientific_color_reference/Origin_scientific_color_reference.pdf)含12类原生Origin合成实例。下方2026-09-30文献学习段落中的25套为当时的资产规模。
+
 | 变量/用途 | 可选色标 | 数值映射与注意点 |
 |---|---|---|
 | 日/累计降水、径流量 | cmocean_rain、Blues、YlGnBu | 非负顺序；先说明mm、mm/d或m³/s；无雨与NaN分开 |

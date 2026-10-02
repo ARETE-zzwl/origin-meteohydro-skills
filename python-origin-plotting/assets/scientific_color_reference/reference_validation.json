@@ -1,0 +1,14 @@
+{
+  "pages": 4,
+  "native_origin_pages": 2,
+  "vector_palette_pages": 2,
+  "no_raster_images": true,
+  "all_fonts_embedded": true,
+  "text_inside_page": true,
+  "drawing_streams_unchanged": true,
+  "inputs": [
+    "ColorPage1.pdf",
+    "ColorPage2.pdf",
+    "palette_reference_pages.pdf"
+  ]
+}

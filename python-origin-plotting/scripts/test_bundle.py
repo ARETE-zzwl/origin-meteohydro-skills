@@ -16,7 +16,8 @@ from originpro_plot_template import validate
 class BundleTests(unittest.TestCase):
     def test_all_palettes_have_matching_csv_pal_and_hashes(self):
         entries = catalog()['palettes']
-        self.assertEqual(len({p['name'] for p in entries}), 25)
+        self.assertEqual(len({p['name'] for p in entries}), len(entries))
+        self.assertTrue({'viridis', 'batlow', 'vik', 'navia', 'tol_bright', 'tol_high_contrast'} <= {p['name'] for p in entries})
         for entry in entries:
             rgb = read_pal(ASSETS / entry['pal'])
             self.assertEqual(len(rgb), entry['count'])

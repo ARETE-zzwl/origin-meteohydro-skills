@@ -1,0 +1,11 @@
+{
+  "backend": "OriginPro",
+  "version": 10.100178,
+  "synthetic": true,
+  "seed": 20261002,
+  "native_tables_verified": 204,
+  "all_bindings_verified": true,
+  "reopened": true,
+  "colorbar": "Manual native vector bin key with identical mapping in split cells",
+  "note": "XY density geometry; not built-in violin objects. Demonstration only, not inference."
+}

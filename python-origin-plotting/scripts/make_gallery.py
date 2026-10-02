@@ -20,7 +20,7 @@ def save(fig, path):
 
 def atlas(out):
     entries = catalog()['palettes']
-    fig, axes = plt.subplots(len(entries), 1, figsize=(12, 15))
+    fig, axes = plt.subplots(len(entries), 1, figsize=(12, max(15, .48*len(entries)+3)))
     for ax, entry in zip(axes, entries):
         rgb = load_palette(entry['name'])[1]
         ax.imshow(rgb[None, :, :] / 255, aspect='auto', interpolation='nearest')
@@ -32,8 +32,8 @@ def atlas(out):
             spine.set_visible(False)
     fig.subplots_adjust(left=.28, right=.86, top=.93, bottom=.055, hspace=.65)
     fig.suptitle('METEOROLOGY + HYDROLOGY\nOffline scientific palette library', x=.08, ha='left', fontsize=19)
-    fig.text(.08, .017, '25 palettes | RGB / HEX / JASC PAL | Colors do not encode units, bounds or missing values.\n'
-             'Matplotlib / cmocean / Scientific Colour Maps / NCAR NCL / local roles', fontsize=9, color='#59626B')
+    fig.text(.08, .017, f'{len(entries)} palettes | RGB / HEX / JASC PAL | Colors do not encode units, bounds or missing values.\n'
+             'Matplotlib / cmocean / Scientific Colour Maps / Paul Tol / NCAR NCL / local roles', fontsize=9, color='#59626B')
     save(fig, out / 'palette_atlas')
 
 

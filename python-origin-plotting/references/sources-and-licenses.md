@@ -34,6 +34,14 @@ NCL根LICENSE是Apache许可声明，因此另附Apache 2.0全文。各第三方
 
 ## 本次验证
 
+### 2026-10-02：40套配色与原生Origin参考册
+
+原25套PAL/CSV保留；新增Scientific Colour Maps的navia、lipari、glasgow、devon、oslo、lajolla、bam、broc、romaO，仍取上述cmcrameri固定提交及MIT许可。另收录[Paul Tol官方页面](https://sronpersonalpages.nl/~pault/)的bright、vibrant、muted、high-contrast、medium-contrast、pale六组类别RGB，2026-10-02核对并保存为数据；不复制其图像或程序，不为这些第三方色值另行声称许可。每套色表的实际来源及哈希保存在catalog中。
+
+新增[四页参考册](../assets/scientific_color_reference/Origin_scientific_color_reference.pdf)：前两页由本机Origin原生XY图层生成，后两页由ReportLab生成矢量色条；均为本地合成数据或颜色坐标，不包含论文结果或官方示例截图。密度/箱线为预计算后的原生曲线与点，不是内置统计小提琴对象；分裂热图图例不是动态联动ColorScale。官方图型入口及适用范围见[实例索引](origin-gallery-recipes.md)。
+
+原生工程保存后复开核对工作表和绘图绑定；PDF检查字体嵌入、页界与矢量内容并逐页目视检查。RGB/CSV/PAL一致性和亮度诊断由`check_color_assets.py`执行；亮度诊断不等于色觉缺陷条件下的完整可读性认证。
+
 ### 2026-09-30：新增30篇期刊论文学习
 
 新增[文献索引](literature-30.md)、[机器可读元数据](literature-30.json)和[BibTeX](literature-30.bib)。30个唯一DOI经过出版方/Crossref核验，包含方法、结果图与图注的定向阅读定位；不重复计入原来两篇色彩论文。论文观察与本技能的应用推断分别记录。

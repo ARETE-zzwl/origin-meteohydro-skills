@@ -19,6 +19,7 @@ metadata:
 
 - **现有Origin图/CSV/Excel重绘**：读[Origin操作](references/originpro-workflow.md)，复用现有脚本；原生工作表、曲线、图层与OPJU是主要交付。
 - **色标选择或下载**：读[色标指南](references/meteorology-hydrology-colors.md)，查`assets/palette_catalog.json`及[色标预览](assets/palette_atlas.png)。已附离线CSV和JASC PAL，不必重复联网。
+- **科研配色精修与Origin示例**：读[配色与colorbar配方](references/scientific-color-recipes.md)，查看[四页参考册](assets/scientific_color_reference/Origin_scientific_color_reference.pdf)；40套离线色表及12类原生合成示例可复用，图型来源见[Origin实例索引](references/origin-gallery-recipes.md)。
 - **常用图型**：读[图型配方](references/common-plots.md)；[合成示例图集](assets/common_plot_gallery.png)仅展示画法，不是观测结果。
 - **模型诊断、概率集合、复合极端、季节性/小波**：按问题读取[新增12类期刊图型配方](references/journal-figure-recipes.md)。这是结合30篇新增论文整理的决策与Origin实现指南，不代表全部图型已有自动化模板。
 - **导入前检查**：预计算的可靠度、FDC、lag合成和技能矩阵，先按[输入约定](references/data-contracts.md)运行只读检查；不自动修补缺失数据。
@@ -65,6 +66,8 @@ python scripts/palette_tools.py list
 python scripts/palette_tools.py export --name cmocean_rain --levels 0 1 5 10 25 50 100 --out C:/work/rain_colors
 python scripts/make_gallery.py --out C:/work/plot_gallery
 python scripts/originpro_plot_template.py --out C:/work/origin_demo --synthetic
+python scripts/origin_color_gallery.py --out C:/work/origin_colors --synthetic
+python scripts/check_color_assets.py --out C:/work/color_checks.json
 python scripts/check_plot_table.py --kind reliability --csv assets/journal_examples/reliability.csv
 python -m unittest discover -s scripts -p "test_*.py"
 ```
@@ -72,6 +75,8 @@ python -m unittest discover -s scripts -p "test_*.py"
 示例分级不是WMO/CMA降水等级标准。`palette_tools`导出区间颜色表与PAL，但不自动修改Origin全局色库。图集全为固定种子的合成演示；实际论文必须替换为真实输入。Origin示例可以不导出图片，先验收原生项目；`--export-preview`才附自动化预览。
 
 资产已离线打包。仅更新色标来源时用`build_palette_assets.py --allow-network --out <新资产目录>`；只取固定提交的数据/许可文本，不运行下载代码、不上传用户数据。
+
+基础构建器生成原25套；在新资产目录上继续运行`extend_scientific_palettes.py --assets <新资产目录> --allow-network`才得到40套。一般直接复用已打包资产，不重建。原生12图示例另需SciPy；参考册后两页用ReportLab绘制，合并与字体检查使用PyMuPDF、fontTools，见配色配方中的顺序。
 
 ## 交付
 

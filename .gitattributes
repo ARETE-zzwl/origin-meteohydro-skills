@@ -1,0 +1,2 @@
+# Palette CSV/PAL/raw files and manifests are verified byte for byte.
+python-origin-plotting/assets/** -text
